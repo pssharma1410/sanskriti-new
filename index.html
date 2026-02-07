@@ -16,6 +16,10 @@
     min-height: 100vh;
     overflow: hidden;
     color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   /* === BACKGROUND COLLAGE === */
@@ -54,11 +58,8 @@
     padding: 30px;
     width: 90%;
     max-width: 420px;
-    margin: auto;
     text-align: center;
     box-shadow: 0 25px 50px rgba(0,0,0,0.3);
-    top: 50%;
-    transform: translateY(-50%);
   }
 
   h1 {
@@ -192,7 +193,6 @@
     yesBtn.classList.add("fullscreen-yes");
     yesBtn.innerText = "SHE SAID YES 💖🌸";
     title.innerText = "My Valentine forever, Sanskriti 😍";
-
     celebrate();
   });
 
